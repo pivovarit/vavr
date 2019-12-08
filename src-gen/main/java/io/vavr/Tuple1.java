@@ -276,7 +276,7 @@ public final class Tuple1<T1> implements Tuple, Serializable {
 
     @Override
     public int hashCode() {
-        return Tuple.hash(_1);
+        return Objects.hashCode(_1);
     }
 
     @Override
